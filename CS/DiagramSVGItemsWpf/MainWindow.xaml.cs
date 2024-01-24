@@ -1,11 +1,10 @@
-﻿using DevExpress.Xpf.Core;
-using DevExpress.Xpf.Diagram;
+﻿using DevExpress.Xpf.Diagram;
 using System;
 using System.IO;
 using System.Windows;
 
 namespace DiagramSVGItemsWpf {
-    public partial class MainWindow : ThemedWindow {
+    public partial class MainWindow : Window {
         private string path;
         public MainWindow() {
             InitializeComponent();
